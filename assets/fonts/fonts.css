@@ -1,0 +1,74 @@
+@font-face {
+    font-family:'Lovestory-Alt';
+    src: url('LovestoryAlt SVG.eot');
+    src: url('LovestoryAlt SVG.eot?#iefix') format('embedded-opentype'),
+        url('LovestoryAlt SVG.woff2') format('woff2'),
+        url('LovestoryAlt SVG.woff') format('woff'),
+        url('LovestoryAlt SVG.svg#LovestoryAlt SVG') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00DF;
+}
+
+@font-face {
+    font-family:'Lovestory';
+    src: url('Lovestory SVG.eot');
+    src: url('Lovestory SVG.eot?#iefix') format('embedded-opentype'),
+        url('Lovestory SVG.woff2') format('woff2'),
+        url('Lovestory SVG.woff') format('woff'),
+        url('Lovestory SVG.svg#Lovestory SVG') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00DF;
+}
+
+@font-face {
+    font-family: 'steelfish';
+    src: url('SteelfishRg-Regular.woff2') format('woff2'),
+        url('SteelfishRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DidotLTStd-Italic';
+    src: url('DidotLTStd-Italic.woff2') format('woff2'),
+        url('DidotLTStd-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AhmetAltun';
+    src: url('HalisGR-Medium.woff2') format('woff2'),
+        url('HalisGR-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AhmetAltun';
+    src: url('HalisGR-Regular.woff2') format('woff2'),
+        url('HalisGR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AhmetAltun';
+    src: url('HalisGR-RegularItalic.woff2') format('woff2'),
+        url('HalisGR-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AhmetAltun';
+    src: url('HalisGR-Light.woff2') format('woff2'),
+        url('HalisGR-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

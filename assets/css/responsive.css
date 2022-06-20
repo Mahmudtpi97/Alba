@@ -1,0 +1,351 @@
+@media all and (max-width: 1200px){
+	.live-story-area {
+		background-size: cover;
+		background-position-x: 60%;
+	}
+	.welcome-to-beautifull,.welcome-to-beautifull.take-life-area,.welcome-to-beautifull.little-sparkle-area{
+		background-size: cover;
+		background-position-x: 50%;
+	}
+	.weddings-footer h1 {
+		font-size: 40px;
+	}
+	.babe-creative-paragraf {
+		padding: 0px 25px 20px 25px;
+	}
+}
+
+@media all and (max-width: 991px){
+	h1 {
+		font-size: 45px;
+	}
+	.trust-magic-area h1 span {
+		font-size: 88px;
+	}
+	.babe-creative-heading h2:nth-child(3) span, .babe-creative-heading h2:nth-child(5) span, .babe-creative-heading h2:nth-child(2) span {
+		font-size: 85px;
+	}
+	.welcome-beautiful-text h2 {
+		font-size: 30px;
+		max-width: 610px;
+	}
+	.header-area {
+		padding: 15px 10px;
+	}
+	.trust-magic-area {
+		margin: inherit;
+	}
+	.live-story-heading h1 {
+		font-size: 42px;
+		letter-spacing: 10px;
+		text-align: left;
+	}
+	.live-story-area {
+		padding-top: 170px;
+	}
+	.babe-creative-first img, .babe-creative-second img {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+	.weddings-area-left,.weddings-area-right,.events-area-left,.events-area-right,.styling-left-area,.styling-right-area,.contact-left-content,.contact-me-right {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+	.weddings-area-content,.styling-area-content {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	.contact-me-single span {
+		margin-right: 0;
+	}
+}
+
+@media all and (min-width: 768px){
+	.menu-area ul {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 767px){
+	h1 {
+		font-size: 32px;
+	}
+	.second-heading h1 {
+		font-size: 45px;
+	}
+	.menu-area ul{
+		display: none;
+	}
+	.mobile-menu-icon {
+		display: block;
+		margin-bottom: -28px;
+	}
+	.logo-area {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 60%;
+		flex: 0 0 60%;
+	}
+	.menu-area-content {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 40%;
+		flex: 0 0 40%;
+	}
+	.menu-area ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		position: absolute;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		background: #444A50;
+		text-align: center;
+		padding: 1px 0;
+		z-index: 99;
+	}
+	.menu-area ul li{
+		margin:0;
+	}
+	.menu-area ul li a{
+		border-bottom: 1px solid #fff;
+		width: 100%;
+		padding: 10px 0;
+		margin:0;
+		display: block;
+	}
+	.menu-area ul li:nth-child(1)  {
+		border-top: 1px solid #fff;
+	}
+	.menu-area  ul li:hover a{
+		background: #D0D9E6;
+		color:#444A50;
+	}
+	.babe-creative-left-content,.babe-creative-right-content {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+	.trust-magic-area {
+		max-width: 300px;
+		padding: 30px 15px;
+	}
+	.trust-magic-area h1 {
+		font-size: 40px;
+	}
+	.live-story-area {
+		padding-top: 30px;
+	}
+	.live-story-heading h1 {
+		text-align: center;
+	}
+	.welcome-beautiful-text h2 {
+		font-size: 23px;
+		max-width: 470px;
+		bottom: -14px;
+	}
+	.welcome-beautiful-text.take-life h2 {
+		max-width: 265px;
+	}
+	.welcome-beautiful-text.little-sparkle h2 {
+		max-width: 190px;
+	}
+	.styling-right-heading p {
+		margin-top: 60px;
+	}
+	.contant-me-left h1 {
+		margin-bottom: 30px;
+	}
+	.contact-me-now.text-center a {
+		margin-top: 50px;
+	}
+}
+
+@media all and (max-width: 575px){
+	h1 {
+		font-size: 30px;
+	}
+	.second-heading h1 {
+		font-size: 40px;
+	}
+	.live-story-area {
+		background-position-x: 100%;
+	}
+	.trust-magic-area {
+		margin: 0 auto;
+	}
+	.live-story-heading h1 {
+		font-size: 32px;
+		margin-bottom: 125px;
+	}
+	.babe-creative-heading h2:nth-child(3), .babe-creative-heading h2:nth-child(5) {
+		font-size: 30px;
+	}
+	.babe-creative-heading h2:nth-child(3) span, .babe-creative-heading h2:nth-child(5) span, .babe-creative-heading h2:nth-child(2) span {
+		font-size: 72px;
+	}
+	.babe-creative-heading h2:nth-child(2), .babe-creative-heading h2:nth-child(4) {
+		font-size: 30px;
+	}
+	.welcome-beautiful-text h2 {
+		font-size: 20px;
+		max-width: 370px;
+		bottom: -25px;
+	}
+	.weddings-area-right,.styling-right-area {
+		padding: 30px 35px 30px 35px;
+	}
+	.styling-right-heading p {
+		margin-top: 30px;
+	}
+	.weddings-heading p {
+		margin: 25px auto;
+	}
+	.weddings-footer h1 {
+		font-size: 34px;
+		margin-bottom: 10px;
+	}
+	.weddings-footer p span, .events-left-heading p span {
+		font-size: 110px;
+	}
+	.welcome-beautiful-text.take-life h2 {
+		max-width: 228px;
+		bottom: -12px;
+	}
+	.welcome-beautiful-text.little-sparkle h2 {
+		max-width: 180px;
+		bottom: -12px;
+	}
+	.styling-right-heading p span {
+		font-size: 108px;
+		margin-left: 15px;
+	}
+	.contant-me-left h2 {
+		font-size: 35px;
+	}
+	.weddings-footer p, .events-left-heading p, .styling-right-heading p, .contant-me-left p {
+		font-size: 25px;
+	}
+	.contant-me-left h2 span, .contact-me-single span {
+		font-size: 150px;
+		line-height: 50px;
+	}
+	.contact-me-now.text-center a {
+		margin-top: 25px;
+		font-size: 18px;
+	}
+	.contant-me-left {
+		padding: 35px;
+	}
+	.welcome-beautiful-text {
+		padding: 40px 20px;
+	}
+	.welcome-beautiful {
+		padding: 50px 15px 70px 15px;
+	}
+	.babe-creative-heading h1 {
+		letter-spacing: 4px;
+		font-size: 40px;
+	}
+	.welcome-to-beautifull,.welcome-to-beautifull.take-life-area, .welcome-to-beautifull.little-sparkle-area {
+		padding-bottom: 400px;
+	}
+}
+
+@media all and (max-width: 450px){
+	p {
+		font-size: 16px;
+		text-align: justify;
+	}
+	.second-heading h1 {
+		font-size: 35px;
+	}
+	.live-story-area {
+		background-position-x: 95%;
+	}
+	.live-story-heading h1 {
+		font-size: 28px;
+		letter-spacing: 4px;
+	}
+	.live-story-heading h1 span::after {
+		left: 0;
+	}
+	.welcome-beautiful-text h2 {
+		font-size: 18px;
+		max-width: 260px;
+		bottom: -25px;
+	}
+	.welcome-beautiful-text {
+		padding: 30px 20px;
+	}
+	.welcome-beautiful-text.take-life h2 {
+		max-width: 210px;
+		bottom: -10px;
+	}
+	.welcome-beautiful-text.little-sparkle h2 {
+		max-width: 150px;
+		bottom: -10px;
+	}
+	.welcome-beautiful {
+		padding: 45px 15px 55px 15px;
+	}
+	.babe-creative-heading h2:nth-child(2), .babe-creative-heading h2:nth-child(4) {
+		font-size: 25px;
+	}
+	.babe-creative-heading h2:nth-child(3), .babe-creative-heading h2:nth-child(5) {
+		font-size: 22px;
+	}
+	.babe-creative-heading h2:nth-child(3) span, .babe-creative-heading h2:nth-child(5) span, .babe-creative-heading h2:nth-child(2) span {
+		font-size: 60px;
+	}
+	.babe-creative-heading h1 {
+		font-size: 35px;
+	}
+	.weddings-area-right, .styling-right-area {
+		padding: 30px 20px 30px 20px;
+	}
+	.events-left-content {
+		padding: 28px 20px 35px 20px;
+	}
+	.weddings-heading p {
+		margin: 15px auto;
+	}
+	.weddings-footer.text-center span {
+		margin-right: -150px;
+	}
+	.events-left-heading p span,.styling-right-heading p span {
+		font-size: 65px;
+		margin-left: 0;
+	}
+	.weddings-footer p, .events-left-heading p, .styling-right-heading p, .contant-me-left p {
+		font-size: 23px;
+		text-align: inherit;
+	}
+	.second-heading h1 {
+		font-size: 30px;
+	}
+	.contant-me-left h2 {
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+	.contant-me-left h2 span, .contact-me-single span {
+		font-size: 120px;
+		line-height: 55px;
+	}
+	.contact-me-now.text-center a {
+		margin-top: 0;
+		font-size: 16px;
+	}
+	.contact-me-now{
+		margin-top: 20px;
+	}
+	.contant-me-left {
+		padding: 20px;
+	}
+}

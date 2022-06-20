@@ -1,0 +1,693 @@
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'AhmetAltun';
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+a:hover{
+  text-decoration: none;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.container-fluid {
+  padding-right: 0; 
+  padding-left: 0; 
+}
+
+h1 {
+  font-family: 'steelfish';
+  font-weight: 400;
+  font-size: 55px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.second-heading h1 {
+  font-family: 'AhmetAltun';
+  font-weight: 600;
+  color: #000000;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #323232;
+  text-transform: inherit;
+  line-height: normal;
+}
+.mobile-menu-icon{
+  display: none;
+}
+/*Start Humber Icon Design Css*/
+.all-p-humber{
+  width: 40px;
+  height: 50px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 99;
+}
+.all-p-humber span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+/ Icon 3 /
+.all-p-humber span:nth-child(1) {
+  top: 6px;
+}
+.all-p-humber span:nth-child(2), .all-p-humber span:nth-child(3) {
+  top: 10px;
+}
+.all-p-humber span:nth-child(4) {
+  top: 20px;
+}
+.all-p-humber.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+.all-p-humber.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.all-p-humber.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.all-p-humber.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+/*Start Humber Icon Design Css*/
+
+/*=====================================================================
+  =====                Start Header Area Section Css              =====
+  =====================================================================*/
+  .header-area {
+    background: #444A50;
+    padding: 15px 50px;
+    position: relative;
+  }
+  .header-area-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .logo-area {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+  }
+  .logo-area img{
+    max-width: 450px;
+    width:100%;
+  }
+  .menu-area-content {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .menu-area ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .menu-area ul li{
+    margin:0 10px;
+  }
+  .menu-area ul li a{
+    font-weight: 400;
+    font-size: 15px;
+    color:#FFFFFF;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+  }
+  .menu-area ul li:hover a{
+    color: #CDCDCE;
+  }
+/*=====================================================================
+  =====                Start Header Area Section Css              =====
+  =====================================================================*/
+
+/*=====================================================================
+  =====              Start Live Story Area Section Css            =====
+  =====================================================================*/
+  .live-story-area {
+    background: url(../images/liveStoryOne.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding-top: 295px;
+    border-bottom: 20px solid #444A50;
+  }
+  .live-story-heading h1 {
+    font-family: 'Didot';
+    font-weight: 300;
+    font-size: 48px;
+    color: #444A50;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .live-story-heading h1 span {
+    font-family: 'DidotLTStd-Italic';
+    text-transform: lowercase;
+    display: inline-block;
+    position: relative;
+  }
+  .live-story-heading h1 span::after {
+    content: "";
+    position: absolute;
+    background: #444A50;
+    height: 2px;
+    width: 100%;
+    top: 10px;
+    left: -5px;
+  }
+  .trust-magic-area {
+    background: #444A50;
+    max-width: 350px;
+    text-align: center;
+    padding: 50px 40px;
+    margin: 0 auto;
+  }
+  .trust-magic-area h1{
+    letter-spacing: 6px;
+  }
+  .trust-magic-area h1 span {
+    font-family: 'Lovestory';
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    font-size: 110px;
+    line-height: 115px;
+  }
+/*=====================================================================
+  =====              Start Live Story Area Section Css            =====
+  =====================================================================*/
+
+/*=====================================================================
+  =====            Start Babe Creative Area Section Css           =====
+  =====================================================================*/
+  .babe-creative-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .babe-creative-left-content{
+    background: #CDCDCE;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+  }
+  .babe-creative-right-content{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+  }
+  .babe-creative-heading{
+    margin-top: 25px;
+  }
+  .babe-creative-heading h1{
+    letter-spacing: 6px;
+  }
+  .babe-creative-heading h2:nth-child(2), .babe-creative-heading h2:nth-child(4) {
+    font-family: 'DidotLTStd-Italic';
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    line-height: normal;
+    text-transform: lowercase;
+  }
+  .babe-creative-heading h2:nth-child(4){
+    margin-bottom: 14px;
+    margin-top: -20px;
+  }
+  .babe-creative-heading h2:nth-child(3), .babe-creative-heading h2:nth-child(5) {
+    font-family: 'steelfish';
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .babe-creative-heading h2:nth-child(3) span, .babe-creative-heading h2:nth-child(5) span, .babe-creative-heading h2:nth-child(2) span {
+    font-family: 'Lovestory';
+    font-weight: 700;
+    font-size: 100px;
+    color: #000;
+    text-transform: inherit;
+    display: inline-block;
+    line-height: 55px;
+  }
+  .babe-creative-heading h2:nth-child(2) span,.babe-creative-heading h2:nth-child(3) span{
+    text-transform: capitalize;
+  }
+  .babe-creative-heading h2:nth-child(5) span{
+    text-transform: lowercase;
+  }
+  .babe-creative-paragraf p {
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .babe-creative-paragraf p:nth-child(2) {
+    margin: 20px auto;
+  }
+  .babe-creative-first,.babe-creative-second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 50%;
+  }
+  .babe-creative-first img,.babe-creative-second img{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    width:100%;
+    overflow: hidden;
+  }
+/*=====================================================================
+  =====             End Babe Creative Area Section Css            =====
+  =====================================================================*/
+
+/*=====================================================================
+  =====          Start Welcoma Beautiful Area Section Css         =====
+  =====================================================================*/
+  .welcome-to-beautifull {
+    background: url(../images/beautiful.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding-bottom: 650px;
+  }
+  .welcome-to-beautifull.take-life-area{
+    background: url(../images/takeLife.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding-bottom: 650px;
+  }
+  .welcome-to-beautifull.little-sparkle-area{
+   background: url(../images/sparkle.jpg);
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: 100% 100%;
+   padding-bottom: 650px;
+ }
+ .welcome-beautiful {
+  background: #444A50;
+  text-align: center;
+  padding: 75px 15px 105px 15px;
+  position: relative;
+  z-index: 99;
+}
+.welcome-beautiful-text {
+  max-width: 895px;
+  width: 100%;
+  border: 2px solid #FFFFFF;
+  margin: 0 auto;
+  padding: 40px 30px;
+  position: relative;
+}
+.welcome-beautiful-text h2 {
+  font-family: 'DidotLTStd-Italic';
+  font-weight: 400;
+  font-size: 34px;
+  color: #fff;
+  line-height: normal;
+  background: #444A50;
+  display: inline-block;
+  padding: 0 10px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  max-width: 690px;
+  width: 100%;
+  bottom: -20px;
+}
+.welcome-beautiful-text.take-life h2 {
+  max-width: 375px;
+}
+.welcome-beautiful-text.little-sparkle h2{
+  max-width: 300px;
+}
+/*=====================================================================
+  =====            End Welcoma Beautiful Area Section Css         =====
+  =====================================================================*/
+
+/*=====================================================================
+  =====               Start Weddings Area Section Css             =====
+  =====================================================================*/
+  .weddings-area-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .weddings-area-left{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+  }
+  .weddings-area-right{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+    background: #F8F1EE;
+    border: 20px solid #FFFFFF;
+    padding: 30px 50px 60px 50px;
+  }
+  .weddings-area-left img,.events-area-right img,.styling-left-area img,.contact-me-right img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .weddings-heading,.styling-right-heading {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .weddings-heading p {
+    margin: 49px auto;
+  }
+  .weddings-footer h1{
+    color: #000;
+  }
+  .weddings-footer p,.events-left-heading p,.styling-right-heading p,.contant-me-left p {
+    font-family: 'DidotLTStd-Italic';
+    font-weight: 300;
+    font-size: 28px;
+    color: #000;
+    text-transform: inherit;
+  }
+  .weddings-footer p span,.events-left-heading p span {
+    font-family: 'Lovestory';
+    font-size: 130px;
+    line-height: 35px;
+  }
+  .weddings-footer.text-center span {
+    margin-right: -260px;
+  }
+/*=====================================================================
+  =====                End Weddings Area Section Css              =====
+  =====================================================================*/
+
+/*=====================================================================
+  =====                Start Events Area Section Css              =====
+  =====================================================================*/
+  .events-area-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .events-area-left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 56%;
+    flex: 0 0 56%;
+    background: #D0D9E6;
+    padding: 20px;
+  }
+  .events-left-content {
+    max-width: 715px;
+    width:100%;
+    margin: 0 auto;
+    border: 4px solid #fff;
+    padding: 28px 35px 35px 35px;
+  }
+  .events-left-heading p {
+    text-align: center;
+    margin: 28px 0;
+  }
+  .events-left-content p span{
+    line-height: inherit;
+    margin-left: 15px;
+  }
+  .events-left-footer p,.styling-right-footer p {
+    max-width: 600px;
+    width: 100%
+  }
+  .events-area-right{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 44%;
+    flex: 0 0 44%;
+  }
+
+/*=====================================================================
+  =====                 End Events Area Section Css               =====
+  =====================================================================*/
+
+/*=====================================================================
+  =====                Start Styling Area Section Css             =====
+  =====================================================================*/
+  .styling-area-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .styling-left-area {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+  }
+  .styling-right-area {
+    background: #9ABEA7;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+    border: 20px solid #fff;
+    padding: 45px 50px 45px 50px;
+  }
+  .styling-right-heading p {
+    font-size: 26px;
+    margin-top: 110px;
+  }
+  .styling-right-heading p:nth-child(3) {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .styling-right-heading p span {
+    font-family: 'Lovestory-Alt';
+    font-size: 130px;
+    line-height: 110px;
+    margin-left: 20px;
+  }
+  .styling-right-footer p{
+    margin: 0 auto;
+  }
+/*=====================================================================
+  =====                 End Styling Area Section Css              =====
+  =====================================================================*/
+
+/*=====================================================================
+  =====              Start Contact Me Area Section Css            =====
+  =====================================================================*/
+  .contact-me-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .contact-left-content {
+    background: #444A50;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+    padding: 20px;
+  }
+  .contant-me-left {
+    max-width: 715px;
+    width: 100%;
+    margin: 0 auto;
+    border: 4px solid #fff;
+    padding: 70px 35px 35px 35px;
+  }
+  .contant-me-left  h1 {
+    margin-bottom: 90px;
+    color: #fff;
+  }
+  .contant-me-left h2 {
+    font-family: 'steelfish';
+    font-weight: 400;
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+  .contant-me-left h2 span,.contact-me-single span {
+    font-family: 'Lovestory';
+    font-size: 200px;
+    color:#fff;
+    text-transform: lowercase;
+    line-height: 0;
+  }
+  .contant-me-left p{
+    text-align: center;
+    color: #fff;
+  }
+  .contact-me-single span {
+    text-align: right;
+    display: block;
+    line-height: 80px;
+    font-style: italic;
+    margin-right: -100px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 9;
+  }
+  .contact-me-now.text-center a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-transform: inherit;
+    display: inline-block;
+    font-style: italic;
+    margin-top: 90px;
+  }
+  .contact-me-right{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+  }
+/*=====================================================================
+  =====               End Contact Me Area Section Css             =====
+  =====================================================================*/
+
+  /*=====================================================================
+  =====               Start Footer Area Section Css            =====
+  =====================================================================*/
+  .copyRight {
+    background: #000;
+    padding: 2rem;
+    text-align: center;
+}
+.copyRight p, .copyRight p a:hover{
+  color:#fff;
+  transition: 1s;
+}
+  /*=====================================================================
+  =====               End Footer Area Section Css             =====
+  =====================================================================*/
